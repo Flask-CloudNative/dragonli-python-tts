@@ -14,7 +14,7 @@ db = DBConnect(db='dragonli', collection='speechs')
 app.config['SEPPCH_DIR'] = 'speechs/'
 
 
-@app.route('/dragonli/1.0/tts', methods=['GET', 'POST', 'PUT', 'DELETE'])
+@app.route('/', methods=['GET', 'POST', 'PUT', 'DELETE'])
 def api():
     parameter = Parameter(request)
 
