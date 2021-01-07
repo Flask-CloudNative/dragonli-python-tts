@@ -1,6 +1,0 @@
-ports:
- - port: 6000
-   protocol: http
-envs:
-  SPEECH_KEY: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-  SERVICE_REGION: eastus
